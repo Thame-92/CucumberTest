@@ -1,0 +1,420 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-17T08:27:09.054Z",
+        "line": 4,
+        "name": "To validate the auditin hote webpage using valid credentials",
+        "description": "",
+        "id": "to-verify-the-adactin-hotel-webpage;to-validate-the-auditin-hote-webpage-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11564609500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be in Login page",
+            "match": {
+              "location": "org.step.LoginStepClass.login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2577480900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the login credentials",
+            "match": {
+              "location": "org.step.LoginStepClass.login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3247642500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "org.step.LoginStepClass.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152591000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should validate the login success message",
+            "match": {
+              "location": "org.step.LoginStepClass.Navigate_to_Hotel_booking_page_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Verify the Adactin Hotel Webpage",
+    "description": "",
+    "id": "to-verify-the-adactin-hotel-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/publish/1LoginPage.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-17T08:27:26.750Z",
+        "line": 5,
+        "name": "Search hotel By providing the Specific requirements",
+        "description": "",
+        "id": "to-search-hotel-on-the-specific-date;search-hotel-by-providing-the-specific-requirements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2430797800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Selecting the Location",
+            "match": {
+              "location": "org.step.LoginStepClass.selecting_the_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2186668000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Selecting the HotelName",
+            "match": {
+              "location": "org.step.LoginStepClass.selecting_the_hotel_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2284630100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Selecting the Location",
+            "match": {
+              "location": "org.step.LoginStepClass.selecting_the_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2186099000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Selecting the RoomType",
+            "match": {
+              "location": "org.step.LoginStepClass.selecting_the_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206894400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Selecting the NumberOfRooms",
+            "match": {
+              "location": "org.step.LoginStepClass.selecting_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2104781000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Provide the CheckInDate",
+            "match": {
+              "location": "org.step.LoginStepClass.provide_the_check_in_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2117837000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Provide the CheckOutDate",
+            "match": {
+              "location": "org.step.LoginStepClass.provide_the_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188881200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Adding the AdultsPerRoom",
+            "match": {
+              "location": "org.step.LoginStepClass.adding_the_adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237296900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Adding the ChildPerRoom",
+            "match": {
+              "location": "org.step.LoginStepClass.adding_the_child_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6856200100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click the SearchButton",
+            "match": {
+              "location": "org.step.LoginStepClass.click_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Customer shoud Navigate in success to the NextPage",
+            "match": {
+              "location": "org.step.LoginStepClass.customer_shoud_navigate_in_success_to_the_next_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To Search hotel on the specific date",
+    "description": "",
+    "id": "to-search-hotel-on-the-specific-date",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/publish/2SearchHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-17T08:27:47.603Z",
+        "line": 2,
+        "name": "To Verify the SearchedHotel value and confirm the same",
+        "description": "",
+        "id": "to-confirm-the-selectedhotel;to-verify-the-searchedhotel-value-and-confirm-the-same",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2097826100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Selecting the Radio Button",
+            "match": {
+              "location": "org.step.LoginStepClass.selecting_the_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3061175400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click the continue button",
+            "match": {
+              "location": "org.step.LoginStepClass.click_the_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should navigated to Book a hotel page",
+            "match": {
+              "location": "org.step.LoginStepClass.user_should_navigated_to_book_a_hotel_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To confirm the selectedHotel",
+    "description": "",
+    "id": "to-confirm-the-selectedhotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/publish/3SelectHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-17T08:27:52.866Z",
+        "line": 4,
+        "name": "User to enter the payment details to confirm the booking",
+        "description": "",
+        "id": "to-validate-payment-details;user-to-enter-the-payment-details-to-confirm-the-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278646200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "USer to enter firstname",
+            "match": {
+              "location": "org.step.LoginStepClass.u_ser_to_enter_firstname()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1221775900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "USer to enter lastname",
+            "match": {
+              "location": "org.step.LoginStepClass.u_ser_to_enter_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2267848400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to enter billing address",
+            "match": {
+              "location": "org.step.LoginStepClass.user_to_enter_billing_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2251457000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user to enter credit card 16 digit number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 26
+                }
+              ],
+              "location": "org.step.LoginStepClass.user_to_enter_credit_card_digit_number(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211715200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user to enter type of credit card",
+            "match": {
+              "location": "org.step.LoginStepClass.user_to_enter_type_of_credit_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2394222200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user to selecte card expiry month and expiry year",
+            "match": {
+              "location": "org.step.LoginStepClass.user_to_selecte_card_expiry_month_and_expiry_year()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1188955900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user to enter cvv number",
+            "match": {
+              "location": "org.step.LoginStepClass.user_to_enter_cvv_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3108262400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User to click the booknow button",
+            "match": {
+              "location": "org.step.LoginStepClass.user_to_click_the_booknow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.apache.poi.ss.usermodel.Row.createCell(int)\" because the return value of \"org.apache.poi.ss.usermodel.Sheet.getRow(int)\" is null\r\n\tat org.global.BaseClass.excel_write(BaseClass.java:194)\r\n\tat org.step.LoginStepClass.Booking_ticket_confiramtion_page(LoginStepClass.java:378)\r\n\tat ✽.User should Navigated to Booking ticket confiramtion page(file:///C:/Users/Thameem%20M/eclipse-workspace1/CucumberFramework/src/test/resources/publish/4PaymentDetails.feature:13)\r\n",
+              "duration": 107349700,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User should Navigated to Booking ticket confiramtion page",
+            "match": {
+              "location": "org.step.LoginStepClass.Booking_ticket_confiramtion_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Payment Details",
+    "description": "",
+    "id": "to-validate-payment-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/publish/4PaymentDetails.feature",
+    "tags": []
+  }
+]
